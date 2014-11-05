@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\modules">
+      <UniqueIdentifier>{4722191f-1002-4005-83fb-76dceebf5339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\modules\main_game">
+      <UniqueIdentifier>{06208138-fa6e-43cd-9f96-87d206acd1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Cocos2dx">
+      <UniqueIdentifier>{b74dc2b7-faa0-4d43-aebd-f7084b2179bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Cocos2dx\Common">
+      <UniqueIdentifier>{64cfeeee-a9f5-4e17-9e4a-6ef829d34d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Cocos2dx\ShareButton">
+      <UniqueIdentifier>{1d553b1b-4ab2-4cc3-97b8-32c137926f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\ResourceLoader.cpp">
+      <Filter>Classes\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\WelcomeScene.cpp">
+      <Filter>Classes\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\WelcomeLayer.cpp">
+      <Filter>Classes\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\LoadingScene.cpp">
+      <Filter>Classes\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\FlappyBird.cpp">
+      <Filter>Classes\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\UserRecord.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\BackgroundLayer.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\GameLayer.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\GameScene.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\OptionLayer.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\StatusLayer.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\main_game\Number.cpp">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.cpp">
+      <Filter>Classes\Cocos2dx\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.cpp">
+      <Filter>Classes\Cocos2dx\ShareButton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\ResourceLoader.h">
+      <Filter>Classes\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\WelcomeScene.h">
+      <Filter>Classes\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\WelcomeLayer.h">
+      <Filter>Classes\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\LoadingScene.h">
+      <Filter>Classes\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\FlappyBird.h">
+      <Filter>Classes\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\UserRecord.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\BackgroundLayer.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\GameLayer.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\GameScene.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\OptionLayer.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\StatusLayer.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\main_game\Number.h">
+      <Filter>Classes\modules\main_game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMSocialSDK.h">
+      <Filter>Classes\Cocos2dx\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\Common\CCUMTypeDef.h">
+      <Filter>Classes\Cocos2dx\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cocos2dx\ShareButton\UMShareButton.h">
+      <Filter>Classes\Cocos2dx\ShareButton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
